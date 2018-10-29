@@ -158,8 +158,22 @@ swiper-item image {
     text-align: center;
 
 }
-.partner {
+/* .partner {
   height: auto;
-  /* background-color: red; */
+  background-color: red;
   display: block;
+} */
+.scroll-bar {
+  height: auto;
+  background-color: rgba(148, 134, 108, 0.027);
+  margin-bottom: 10px;
+  display: flex;
 }
+.scroll-showBar {
+  margin: auto;
+  height: 3px;
+  background-color:rgb(216, 194, 194);
+  border-radius: 200px;
+  margin-left: 2px;
+}
+

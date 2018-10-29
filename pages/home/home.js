@@ -85,15 +85,11 @@ Page({
         partner_img: '/images/expert-6.jpg',
         partner_name: '中国供应商'
       }
-    ]
+    ],
+    scrollBarWidth:0,
   },
 
-  changeIndicatorDots: function () {
-    this.setData({
-      indicatorDots: !this.data.indicatorDots
-    })
-  },
-  
+ 
   /**
    * 生命周期函数--监听页面加载
    */
@@ -113,20 +109,27 @@ Page({
       fail: function(res) {},
       complete: function(res) {},
     })
+    
+    // this.data.scrollBarWidth = windowWidth * windowWidth / scrollWidth;
+    // console.log(this.data.scrollBarWidth);
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-
+ 
   },
 
   /**
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-
+    var systemInfo = wx.getSystemInfoSync();
+    var windowWidth = systemInfo.windowWidth;
+    var scrollWidth = windowWidth / 4 * 6;
+    this.data.scrollBarWidth = windowWidth * windowWidth / scrollWidth;
+    console.log(this.data.scrollBarWidth);
   },
 
   /**
