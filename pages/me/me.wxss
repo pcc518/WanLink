@@ -5,27 +5,28 @@
   background-color:white;
   height: 100%;
   align-content: center;
-  overflow: hidden;
+  /* overflow: hidden; */
   margin-bottom: 20px;
 }
 .company {
   display: flex;
   flex-direction: row;
   align-content: center;
-  margin-top: 2px;
-  background-color:rgba(238, 157, 18, 0.7) ;
+  margin-top: 1px;
+  background-color:rgb(187, 148, 65);
   /* margin-bottom: 5px; */
+  height: 45px;
 }
 .company_logo {
   /* display: flex; */
-  width: 40px;
-  height: 40px;
+  width: 20px;
+  height: 20px;
   /* padding: 10px; */
-  margin: 5px 10px;
+  margin-left: 10px;
   border-radius: 50%;
   border: 0.5px white solid;
   background-color: white;
-
+  align-self: center;
 }
 .company_des {
   align-content: flex-start;
@@ -34,8 +35,8 @@
   font-size: 13px;
   color: white;
 }
-.line {
+/* .line {
   height: 0.5px;
   background-color:black;
   margin: 0px 5px;
-}
+} */

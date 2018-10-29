@@ -125,11 +125,11 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-    var systemInfo = wx.getSystemInfoSync();
-    var windowWidth = systemInfo.windowWidth;
-    var scrollWidth = windowWidth / 4 * 6;
-    this.data.scrollBarWidth = windowWidth * windowWidth / scrollWidth;
-    console.log(this.data.scrollBarWidth);
+    // var systemInfo = wx.getSystemInfoSync();
+    // var windowWidth = systemInfo.windowWidth;
+    // var scrollWidth = windowWidth / 4 * 6;
+    // this.data.scrollBarWidth = windowWidth * windowWidth / scrollWidth;
+    // console.log(this.data.scrollBarWidth);
   },
 
   /**
