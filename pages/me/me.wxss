@@ -1,0 +1,41 @@
+/* pages/me/me.wxss */
+.me_container {
+  display: flex;
+  flex-direction: column;
+  background-color:white;
+  height: 100%;
+  align-content: center;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.company {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  margin-top: 2px;
+  background-color:rgba(238, 157, 18, 0.7) ;
+  /* margin-bottom: 5px; */
+}
+.company_logo {
+  /* display: flex; */
+  width: 40px;
+  height: 40px;
+  /* padding: 10px; */
+  margin: 5px 10px;
+  border-radius: 50%;
+  border: 0.5px white solid;
+  background-color: white;
+
+}
+.company_des {
+  align-content: flex-start;
+  margin: auto;
+  margin-right: 10px;
+  font-size: 13px;
+  color: white;
+}
+.line {
+  height: 0.5px;
+  background-color:black;
+  margin: 0px 5px;
+}

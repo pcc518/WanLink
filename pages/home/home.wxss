@@ -1,0 +1,154 @@
+/* pages/home/home.wxss */
+/* .container {
+  background-color: orange;
+} */
+swiper {
+  height:350.rpx
+}
+swiper-item image {
+  width: 100%;
+  height:100%
+}
+.section_title {
+  width: 100%;
+  height: 10%;
+  padding: 10px 20px;
+  background-color: orange;
+  font-size: 15px;
+  color: white;
+  margin-top: 5px;
+}
+.function_container{
+    display:flex;
+    flex-wrap: wrap;
+    width:100%;
+    background-color:white;
+    margin-top: 5px;
+    border: 0.5px solid bisque;
+    flex-direction: row;
+    /* justify-content: space-around; */
+}
+.function_item{
+    width:25%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    font-size:12px;
+    box-sizing:border-box;
+    padding-bottom:10px;
+    padding-top:10px;
+    background-color:white;
+    /* padding-left: 5px; */
+    /* padding-right: 5px; */
+    /* border: 1px solid orange; */
+    /* border-radius: 50%; */
+    /* margin-top: 10px; */
+    /* margin-bottom: 10px; */
+    /* margin-left: 2px; */
+    /* margin-right: 10px */
+
+}
+.function_img{
+    width:45px;
+    height:45px;
+    padding: 8px;
+    border-radius: 50%;
+    border: 0.5px solid rgb(216, 194, 194)
+}
+.function_name{
+    /* display: flex; */
+    padding-top:10px;
+    /* padding-bottom: 10px; */
+    width:100%;
+    /* height: 100%; */
+    color:black;
+    /* justify-content: center; */
+    text-align: center;
+
+}
+.show_item {
+  width: 100%;
+  display:flex;
+  flex-direction: row;
+  position: relative;
+}
+.show_img {
+  width: 100%;
+  margin-top: 1px;
+  position: relative;
+
+}
+/* 将文字显示在图片上 img:position或者show_item设置为相对位置 name 设置为绝对位置 */
+.show_name {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  bottom: 10px;
+  right: 10px;
+  width: 40%;
+  height: 20%;
+  font-weight: 300px;
+  color:black;
+  /* z-index: 1; */
+  font-size: 17px;
+  /* 水平对齐 */
+  text-align: center;
+  vertical-align: middle;
+  /* background:rgb(161, 133, 1); */
+  /* opacity: 0.6; */
+  margin: auto;
+}
+.text_name {
+  display: flex;
+  /* align-content: space-around; */
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* text-align: center; */
+  position: relative;
+  margin: auto;
+  /* 透明度又可以了 */
+  background:rgba(255, 166, 1, 0.3);
+  width: 120px;
+  /* padding: 10px; */
+  /* 在这设置透明度 */
+  /* opacity: 0.5; */
+  /* font-weight: 300px; */
+  color: white;
+}
+/* scroll-view 横向移动问题  设置 scroll-x、white-spce、并且在子空间中设置 display：inlin-block*/ 
+.parnter_container {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+  white-space: nowrap;
+  height: 200px;
+ 
+}
+.partner_item {
+  width: 25%;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+
+}
+.partner_img {
+  width:45px;
+  height:45px;
+  padding: 8px;
+  border-radius: 50%;
+  border: 0.5px solid rgb(216, 194, 194)
+}
+.partner_name{
+    /* display: flex; */
+    padding-top:10px;
+    /* padding-bottom: 10px; */
+    width:100%;
+    /* height: 100%; */
+    color:black;
+    /* justify-content: center; */
+    text-align: center;
+
+}

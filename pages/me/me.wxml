@@ -1,0 +1,20 @@
+<!--pages/me/me.wxml-->
+<view class='me_container'>
+  <view class='company'>
+    <image class='company_logo' src='../../images/logo.jpeg'></image>
+    <text class='company_des'>北京万联科技有限公司</text>
+  </view>
+  <view class='company'>
+    <image class='company_logo' src='../../images/tel.png'></image>
+    <text class='company_des'>010-62790556</text>
+  </view>
+  <view class='company'>
+    <image class='company_logo' src='../../images/mail.png'></image>
+    <text class='company_des'>qiantai@wanlink.com.cn</text>
+  </view>
+  <view class='company'>
+    <image class='company_logo' src='../../images/address.png'></image>
+    <text class='company_des'>北京市海淀区朱房路16号院1号楼</text>
+  </view>
+  <view class='me_hzhb'>合作伙伴</view>
+</view>
