@@ -123,15 +123,19 @@ swiper-item image {
   margin-bottom: 5px;
   width: 100%;
   white-space: nowrap;
-  height: 200px;
+  font-size: 14px;
  
 }
 .partner_item {
   width: 25%;
   display: inline-block;
-  justify-content: center;
+  /* justify-content: center;
   align-items: center;
-  box-sizing: border-box;
+  box-sizing: border-box; */
+  /* 图片与文字居中 */
+  text-align: center;
+  padding-top: 10px;
+
 
 }
 .partner_img {
@@ -139,11 +143,13 @@ swiper-item image {
   height:45px;
   padding: 8px;
   border-radius: 50%;
-  border: 0.5px solid rgb(216, 194, 194)
+  border: 0.5px solid rgb(216, 194, 194);
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .partner_name{
     /* display: flex; */
-    padding-top:10px;
+    /* padding-top:10px; */
     /* padding-bottom: 10px; */
     width:100%;
     /* height: 100%; */
@@ -151,4 +157,9 @@ swiper-item image {
     /* justify-content: center; */
     text-align: center;
 
+}
+.partner {
+  height: auto;
+  /* background-color: red; */
+  display: block;
 }

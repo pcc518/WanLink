@@ -27,12 +27,11 @@
   </view>
 </view>
 <view class='section_title'>合作伙伴</view>
-<!-- <view class='partner'>
-  
-</view> -->
-<scroll-view class='parnter_container' scroll-x scroll-left='2px'>
+<view class='partner'>
+  <scroll-view class='parnter_container' scroll-x='true' scroll-left='2px'>
     <view class='partner_item' wx:for='{{partners}}'>
       <image class='partner_img' src='{{item.partner_img}}'></image>
       <view class='partner_name'>{{item.partner_name}}</view>
     </view>
 </scroll-view>
+</view>
