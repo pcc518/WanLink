@@ -28,7 +28,7 @@
       },
       {
         "pagePath": "pages/me/me",
-        "text": "关于我们",
+        "text": "我们",
         "iconPath": "images/我的a.png",
         "selectedIconPath": "images/我的b.png"
       }

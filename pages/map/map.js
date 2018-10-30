@@ -5,7 +5,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    longitude: 116.3410700000,
+    latitude: 40.0278200000
   },
 
   /**
@@ -19,14 +20,14 @@ Page({
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-
+    this.mapCtx = wx.createMapContext('myMap', this) 
   },
 
   /**
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-
+    
   },
 
   /**

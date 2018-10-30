@@ -18,13 +18,17 @@
     <image class='tip' src='../../images/指示箭头.png'></image>
   </view>
   <view class='company' bindtap='setBoard'>
-    <image class='company_logo' src='../../images/mail.png'></image>
-    <text class='company_des'>{{mail}}</text>
-    <image class='tip' src='../../images/指示箭头.png'></image>
-  </view>
-  <view class='company'>
+      <image class='company_logo' src='../../images/mail.png'></image>
+      <text class='company_des'>{{mail}}</text>
+      <image class='tip' src='../../images/指示箭头.png'></image>
+    </view>
+  <navigator url='/pages/map/map'>
+    <view class='company'>
     <image class='company_logo' src='../../images/address.png'></image>
     <text class='company_des'>北京市海淀区朱房路16号院1号楼</text>
     <image class='tip' src='../../images/指示箭头.png'></image>
   </view>
+  </navigator>
+  
+  
 </view>
