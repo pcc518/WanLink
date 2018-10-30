@@ -1,24 +1,11 @@
-// pages/me/me.js
+// company.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    abouts:[
-      {
-        me_img:'/images/tel.png',
-        me_des:'业务联系'
-      },
-      {
-        me_img: '/images/mail.png',
-        me_des: '电子邮箱'
-      },
-      {
-        me_img: '/images/address.png',
-        me_des: '公司地址'
-      }
-    ]
+
   },
 
   /**
@@ -26,8 +13,6 @@ Page({
    */
   onLoad: function (options) {
 
-    
-  
   },
 
   /**

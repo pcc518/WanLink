@@ -95,21 +95,7 @@ Page({
    */
   onLoad: function (options) {
 
-    wx.setNavigationBarTitle({
-      title: '首页',
-      success: function(res) {},
-      fail: function(res) {},
-      complete: function(res) {},
-    }),
-    wx.setNavigationBarColor({
-      frontColor: '#ffffff',
-      backgroundColor: '#FFA500',
-      animation: {},
-      success: function(res) {},
-      fail: function(res) {},
-      complete: function(res) {},
-    })
-    
+
     // this.data.scrollBarWidth = windowWidth * windowWidth / scrollWidth;
     // console.log(this.data.scrollBarWidth);
   },

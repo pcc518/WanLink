@@ -5,11 +5,13 @@
 </view>
 <text class='QRdes'>微信扫码关注我们，可以获得更多信息</text>
 <view class='me_container'>
-  <view class='company'>
-    <image class='company_logo' src='../../images/logo.jpeg'></image>
-    <text class='company_des'>北京万联科技有限公司</text>
-    <image class='tip' src='../../images/指示箭头.png'></image>
-  </view>
+  <navigator url='/pages/company/company'>
+    <view class='company'>
+      <image class='company_logo' src='../../images/logo.jpeg'></image>
+      <text class='company_des'>北京万联科技有限公司</text>
+      <image class='tip' src='../../images/指示箭头.png'></image>
+    </view>
+ </navigator>
   <view class='company'>
     <image class='company_logo' src='../../images/tel.png'></image>
     <text class='company_des'>010-62790556</text>

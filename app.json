@@ -2,7 +2,9 @@
   "pages": [
     "pages/home/home",
     "pages/product/product",
-    "pages/me/me"
+    "pages/me/me",
+    "pages/map/map",
+    "pages/company/company"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -11,29 +13,28 @@
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
-    "list": [{
-      "pagePath": "pages/home/home",
-      "text": "首页",
-      "iconPath": "images/首页a.png",
-      "selectedIconPath": "images/首页b.png"
-    },
-    {
-      "pagePath": "pages/product/product",
-      "text": "案例展示",
-      "iconPath": "images/案例展示a.png",
-      "selectedIconPath": "images/案例展示b.png"
-    },
-    {
-      "pagePath": "pages/me/me",
-      "text": "关于我们",
-      "iconPath": "images/我的a.png",
-      "selectedIconPath": "images/我的b.png"
-    }
+    "list": [
+      {
+        "pagePath": "pages/home/home",
+        "text": "首页",
+        "iconPath": "images/首页a.png",
+        "selectedIconPath": "images/首页b.png"
+      },
+      {
+        "pagePath": "pages/product/product",
+        "text": "案例展示",
+        "iconPath": "images/案例展示a.png",
+        "selectedIconPath": "images/案例展示b.png"
+      },
+      {
+        "pagePath": "pages/me/me",
+        "text": "关于我们",
+        "iconPath": "images/我的a.png",
+        "selectedIconPath": "images/我的b.png"
+      }
     ],
-    "color":"#000000",
+    "color": "#000000",
     "selectedColor": "#FFA500",
     "backgroundColor": "#ffffff"
-
-
   }
 }
