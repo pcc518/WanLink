@@ -12,14 +12,14 @@
       <image class='tip' src='../../images/指示箭头.png'></image>
     </view>
  </navigator>
-  <view class='company'>
+  <view class='company' bindtap='callPhone'>
     <image class='company_logo' src='../../images/tel.png'></image>
     <text class='company_des'>010-62790556</text>
     <image class='tip' src='../../images/指示箭头.png'></image>
   </view>
-  <view class='company'>
+  <view class='company' bindtap='setBoard'>
     <image class='company_logo' src='../../images/mail.png'></image>
-    <text class='company_des'>qiantai@wanlink.com.cn</text>
+    <text class='company_des'>{{mail}}</text>
     <image class='tip' src='../../images/指示箭头.png'></image>
   </view>
   <view class='company'>

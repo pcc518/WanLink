@@ -18,15 +18,39 @@ Page({
         me_img: '/images/address.png',
         me_des: '公司地址'
       }
-    ]
+    ],
+    mail:'qiantai@wanlink.com.cn',
   },
 
+  callPhone:function() {
+    wx.makePhoneCall({
+      phoneNumber: '010-62790556',
+      success: function(res) {},
+      fail: function(res) {},
+      complete: function(res) {},
+    })
+  },
+  setBoard:function() {
+    wx.setClipboardData({
+      data: this.data.mail,
+      success: function(res) {
+        wx.getClipboardData({
+          success: function(res) {
+            console.log(res)
+          },
+          fail: function(res) {},
+          complete: function(res) {},
+        })
+      },
+      fail: function(res) {},
+      complete: function(res) {},
+    })
+  },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
 
-    
   
   },
 
