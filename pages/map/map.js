@@ -6,14 +6,29 @@ Page({
    */
   data: {
     longitude: 116.3410700000,
-    latitude: 40.0278200000
+    latitude: 40.0278200000,
+    markers:[
+      {
+        id:1,
+        longitude: 116.3410700000,
+        latitude: 40.0278200000,
+        title:'万联科技',
+        iconPath: '/images/location.png',
+        width:50,
+        height:50,
+            
+      }
+    ],
+    height:''
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-
+    var height = wx.getSystemInfoSync().screenHeight;
+    console.log(height)
+    this.data.height = height;
   },
 
   /**
@@ -21,13 +36,14 @@ Page({
    */
   onReady: function () {
     this.mapCtx = wx.createMapContext('myMap', this) 
+    console.log('onReady')
   },
 
   /**
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-    
+    console.log('show')
   },
 
   /**
