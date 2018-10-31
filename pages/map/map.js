@@ -26,9 +26,12 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    var height = wx.getSystemInfoSync().screenHeight;
-    console.log(height)
-    this.data.height = height;
+    // var height = wx.getSystemInfoSync().screenHeight;
+    // console.log(height);
+    // var that=this;
+    // that.data.height = height;
+    // console.log(that.data.height);
+    
   },
 
   /**

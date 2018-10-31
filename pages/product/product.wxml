@@ -1,2 +1,4 @@
 <!--pages/product/product.wxml-->
-<text>pages/product/product.wxml</text>
+<view class='product'>
+  <image class='product-showImg' src='/images/product.jpg'></image>
+</view>

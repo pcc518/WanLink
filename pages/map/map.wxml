@@ -6,4 +6,5 @@
   latitude='{{latitude}}' 
   longitude='{{longitude}}'
   markers='{{markers}}'
+  height='{{height}}'
   ></map>

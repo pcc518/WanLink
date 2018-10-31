@@ -95,7 +95,6 @@ Page({
    */
   onLoad: function (options) {
 
-
     // this.data.scrollBarWidth = windowWidth * windowWidth / scrollWidth;
     // console.log(this.data.scrollBarWidth);
   },
