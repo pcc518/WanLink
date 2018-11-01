@@ -3,11 +3,43 @@
   display: flex;
   flex-direction: column;
   /* flex-wrap: wrap; */
-  width: 100%;
+  /* width: 100%; */
   /* position: relative; */
+  align-items: center;
+  font-size: 15px;
 }
 .product-showImg {
   /* position: absolute; */
   width: 100%;
+  height: 200px;
 
+}
+.section-title {
+  width: 100%;
+  height: 10%;
+  padding: 10px 20px;
+  background-color: orange;
+  font-size: 15px;
+  color: white;
+  margin-top: 1px;
+  text-align: center;
+}
+.experience {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+.product-experience {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  /* align-content: center; */
+  align-items: center;
+}
+.experience-showImg {
+  width: 120px;
+  height: 120px;
+  padding: 5px;
 }

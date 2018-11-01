@@ -5,7 +5,17 @@ Page({
    * 页面的初始数据
    */
   data: {
+    products:[
+      {
+        title:'iOS版',
+        img:'../../images/ios.jpg'
 
+      },
+      {
+        title:'Android版',
+        img:'../../images/anzhuo.jpg'
+      }
+    ]
   },
 
   /**
