@@ -6,8 +6,11 @@
     </swiper-item>
   </block>
 </swiper>
-<view class='section_title'>
+<!-- <view class='section_title'>
    技术应用
+</view> -->
+<view class='section-titleView'>
+  <text class='section-title'>技术应用</text>
 </view>
 <view class='function_container'>
   <view class='function_item' wx:for="{{functions}}">
@@ -15,9 +18,12 @@
     <view class='function_name'>{{item.function_name}}</view>
   </view>
 </view>
-<view class='section_title'>
+<!-- <view class='section_title'>
    业务展示
-</view>
+</view> -->
+ <view class='section-titleView'>
+    <text class='section-title'>业务展示</text>
+  </view>
 <view class='show_container'>
   <view class='show_item' wx:for='{{shows}}'>
     <image class='show_img' src='{{item.show_imgUrl}}'></image>
@@ -26,7 +32,9 @@
     </view>
   </view>
 </view>
-<view class='section_title'>合作伙伴</view>
+ <view class='section-titleView'>
+    <text class='section-title'>合作伙伴</text>
+  </view>
 <!-- <view class='partner'>
   
 </view> -->
